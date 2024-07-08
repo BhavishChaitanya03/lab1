@@ -1,2 +1,53 @@
 hello 
 CHANGES DONE 
+cd folder path
+git init
+git clone link 
+cd lab 1
+git config --global user.username""
+git config --global user.email
+git config --global --list
+git add p1.txt
+git commit -m "first file"
+git status
+git push
+git pull
+git checkout
+nano p1.txt
+gitbash -git reset --hard
+
+
+
+git init 
+git clone link 
+cd <forkname>
+git branch  
+git branch f1
+git checkout f1
+
+nano first.txt
+git add first.txt
+git commit -m "first"
+
+nano second 
+git add
+
+git merge f1
+
+nano first.txt
+git add first.txt
+git commit -m "after change"
+git push -u origin master
+git checkout master
+git merge f1
+git diff first.txt
+
+
+FROM python 
+WORKDIR /app
+COPY ./app
+CMD ["python","ex.py"
+
+docker build -t first .
+docker run first
+
